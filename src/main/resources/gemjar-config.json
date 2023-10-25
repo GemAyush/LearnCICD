@@ -1,0 +1,17 @@
+{
+  "environment": "prod",
+  "project_name": "JEWEL_MS_API",
+  "report_name": "JEWEL_MS_API_Report",
+  "tags": "",
+  "scenario": "",
+  "feature": "src/main/resources/features/Feature.feature",
+  "glue_code": "org.demo.Stepdefinitions.StepDefinition",
+  "browser_timeout": 100,
+  "email_report": "n",
+  "email_to": [
+    "ayush.saxena@geminisolutions.com"
+  ],
+  "enter_point": "https://apis.gemecosystem.com/enter-point",
+  "jewel_user": "perf-ayush",
+  "jewel_bridge_token": "21d1e715-6497-4834-bae7-6aa4b1833b471694499179298"
+}

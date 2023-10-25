@@ -7,4 +7,4 @@ Feature: User Controller APIs
 
     Examples:
       | createUser                                 | post_method | status_201 |
-      | "/gemEcosystemUser/userManagement/v1/user" | post        |   201      |
+      | "/gemEcosystemUser/userManagement/v1/user" | post        | 201        |

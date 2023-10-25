@@ -3,6 +3,7 @@ package org.demo.Stepdefinitions;
 import com.gemini.generic.api.utils.ApiInvocation;
 import com.gemini.generic.api.utils.Request;
 import com.gemini.generic.api.utils.Response;
+import com.gemini.generic.reporting.GemEcoUpload;
 import com.gemini.generic.reporting.GemTestReporter;
 import com.gemini.generic.reporting.STATUS;
 import io.cucumber.java.en.Given;
@@ -10,7 +11,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.json.JSONObject;
 
-public class StepDefinition {
+public class StepDefinition extends GemEcoUpload {
     Response response = new Response();
 
     @Given("Step {string}")
