@@ -45,7 +45,7 @@ public class StepDefinition extends GemEcoUpload {
         if ((response.getResponseBody()) != null) {
             GemTestReporter.addTestStep("Response Body", response.getResponseBody(), STATUS.INFO);
         } else {
-            GemTestReporter.addTestStep("Response Body", "No-Response", STATUS.INFO);
+            GemTestReporter.addTestStep("Response Body", "No-Response ready", STATUS.INFO);
         }
         if ((response.getErrorMessage()) != null) {
             GemTestReporter.addTestStep("Error Message", response.getErrorMessage(), STATUS.INFO);
